@@ -7,5 +7,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pesagem extends Model
 {
-    use HasFactory;
+  use HasFactory;
+
+  private $data;
+  private $equipe_triador;
+  private $origem;
+  private $tipo;
+  private $especificacao;
+  private $peso;
+  private $supervisor;
+  private $observacoes;
+
 }

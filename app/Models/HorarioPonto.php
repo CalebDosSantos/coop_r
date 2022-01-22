@@ -7,5 +7,23 @@ use Illuminate\Database\Eloquent\Model;
 
 class HorarioPonto extends Model
 {
-    use HasFactory;
+  use HasFactory;
+
+  private $tipo_ponto;
+  private $id_catador;
+  private $horario;
+  private $data;
+  private $entrada;
+  private $descanso_entrada;
+  private $descanso_saida;
+  private $saida;
+  private $uniforme_asseio;
+  private $epi;
+  private $descarga_caminhao;
+  private $pts_bon_extra;
+  private $observacoes;
+  private $modalidade;
+  private $cond_visitas;
+  private $periodo_trabalhado;
+
 }

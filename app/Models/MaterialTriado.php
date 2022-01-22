@@ -7,5 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class MaterialTriado extends Model
 {
-    use HasFactory;
+  use HasFactory;
+
+  private $tipo;
+  private $especificacao;
+  private $vlr_prev_vnd;
+  private $vlr_agregado;
+  private $capital;
+
 }
